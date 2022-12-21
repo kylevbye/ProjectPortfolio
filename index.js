@@ -27,6 +27,14 @@ app.get('/', function(request, response) {
 	response.render('home');
 });
 
+app.get('/projects', function(request, response) {
+	response.render('projects');
+});
+
+app.get('/about', function(request, response) {
+	response.render('about');
+});
+
 ///
 /// Setup
 ///
